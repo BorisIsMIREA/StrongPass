@@ -1,0 +1,56 @@
+<resources>
+    <string name="app_name">Strong Password</string>
+    <string name="start_text">  Введите свой номер телефона и PIN-код:</string>
+    <string name="str_pass">Сформировать пароль</string>
+    <string name="copy">Скопировать пароль</string>
+    <string name="copy_Toast">Ваш пароль скопирован</string>
+    <string name="cop">Скопируйте в этом окне свой пароль</string>
+
+    <string name="Error_rand_1">Ошибка: выберете хотя бы один тип символов</string>
+    <string name="Error_rand_2">Ошибка: выберете длину пароля, отличную от нуля</string>
+    <string name="Length_pass_rand">Длина пароля: </string>
+
+
+    <string name="info">ПРАВИЛА ИСПОЛЬЗОВАНИЯ ПРИЛОЖЕНИЯ\n
+        В первом поле ввода введите свой номер телефона в формате 89012345678. При большем количестве
+     символов для генерации пароля используются только первые 11 цифр, остальные игнорируются. При меньшем
+      количестве цифр надёжность пароля СНИЖАЕТСЯ\n
+        Во втором поле ввода введите 4-х значный PIN-код. <b>ВНИМАНИЕ! НЕ ИСПОЛЬЗУЙТЕ
+        ПРОСТЫЕ КОМБИНАЦИИ 1111 1234 4321 И Т.П. ЭТО В РАЗЫ УМЕНЬШАЕТ БЕЗОПАСНОСТЬ!!!</b>\n
+
+        Приложение не хранит сгенерированные пароли и не отправляет их по сети\n\nОбратная связь:\nСвои замечания и пожелания присылайте на почту litvinenko.boris2000@gmail.com
+        \n
+    </string>
+
+    <string name="info_rand">ПРАВИЛА ИСПОЛЬЗОВАНИЯ ПРИЛОЖЕНИЯ\n
+    Выберете парметры вашего будущего пароля: использование строчных и заглавных букв латинского алфавита, 
+         цифр и специальных символов, длину пароля. /nДля большей надёжности рекомндуем включать в пароль все символы 
+        и использовать длину пароля не менее 20. \n<b>ВНИМАНИЕ! ПАРОЛИ ГЕНЕРИРУЮТСЯ СЛУЧАЙНЫМ ОБРАЗОМ И НЕ ПОВТОРЯЮТСЯ. 
+        ЗАПОМИНАЙТЕ ИЛИ ЗАПИСЫВАЙТЕ СВОЙ ПАРОЛЬ. ЗАПИСАННЫЕ ПАРОЛИ ХРАНИТЕ В ЗАЩИЩЕННОМ МЕСТЕ</b>\n
+        Приложение не хранит сгенерированные пароли и не отправляет их по сети\n\nОбратная связь:\nСвои замечания и пожелания присылайте на почту litvinenko.boris2000@gmail.com
+        \n
+    </string>
+    <string name="op">"?"</string>
+    <string name="inf_rand">Выберете необходимые параметры для генерации случайного пароля:</string>
+
+    <string name="chec_1">Строчные буквы (abc)</string>
+    <string name="chec_2">Заглавные буквы (ABC)</string>
+    <string name="chec_3">Цифры (1-9)</string>
+    <string name="chec_4">Специальные символы (@, (, ), !, ?)</string>
+
+    <string name="Length">Длина пароля:</string>
+    <string name="Generacion_Random_Button">Генерировать пароль</string>
+
+    <string name="Pin_menu_text">PIN</string>
+    <string name="Rand_menu_text">Random</string>
+    <string name="Info_menu_text">Справка</string>
+    <string name="title_activity_main__fragments">MainActivity_Fragments</string>
+    <string name="tab_text_1">Tab 1</string>
+    <string name="tab_text_2">Tab 2</string>
+    <string name="tab_text_3">Tab 3</string>
+    <string name="action_settings">Settings</string>
+    <string name="section_format">Hello World from section: %1$d</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>

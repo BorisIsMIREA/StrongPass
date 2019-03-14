@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:id="@+id/inf_rand"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/inf_rand"
+            android:textColor="@color/Black"
+            android:textSize="20dp" />
+        <LinearLayout
+            android:id="@+id/Linear1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/inf_rand"
+            android:orientation="vertical">
+            <CheckBox
+                android:id="@+id/Chec1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:checked="true"
+                android:text="@string/chec_1"
+                android:theme="@style/MyCheckBox"
+                android:layout_marginTop="35dp"/>
+
+            <CheckBox
+                android:id="@+id/Chec2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:checked="true"
+                android:text="@string/chec_2"
+                android:theme="@style/MyCheckBox"/>
+
+            <TextView
+                android:id="@+id/TextSeekBar"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_marginTop="35dp"
+                android:text="@string/Length"
+                android:textColor="@color/Black"
+                android:textSize="20dp"/>
+
+            <SeekBar
+                android:id="@+id/seekBar"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/inf_rand"
+            android:layout_toRightOf="@+id/Linear1"
+            android:layout_marginLeft="50dp"
+            android:orientation="vertical">
+
+            <CheckBox
+                android:id="@+id/Chec3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="35dp"
+                android:checked="true"
+                android:text="@string/chec_3"
+                android:theme="@style/MyCheckBox" />
+
+            <CheckBox
+                android:id="@+id/Chec4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:checked="true"
+                android:text="@string/chec_4"
+                android:theme="@style/MyCheckBox" />
+
+            <Button
+                android:id="@+id/generation_random_pass"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="30dp"
+                android:text="@string/Generacion_Random_Button"
+                android:textColor="@color/Black"
+                android:textSize="16dp"
+
+                />
+
+        </LinearLayout>
+    </RelativeLayout>
+
+</android.support.constraint.ConstraintLayout>
